@@ -1,0 +1,38 @@
+[
+    {
+      "price": 500,
+      "id": 1,
+      "title": "Laptop",
+      "thumbnailUrl": "https://picsum.photos/id/2/400"
+    },
+    {
+      "price": 150,
+      "id": 2,
+      "title": "Table",
+      "thumbnailUrl": "https://picsum.photos/id/1068/400"
+    },
+    {
+      "price": 100,
+      "id": 3,
+      "title": "Tools",
+      "thumbnailUrl": "https://picsum.photos/id/20/400"
+    },
+    {
+      "price": 15,
+      "id": 4,
+      "title": "Cup",
+      "thumbnailUrl": "https://picsum.photos/id/30/400"
+    },
+    {
+      "price": 75,
+      "id": 5,
+      "title": "Camera",
+      "thumbnailUrl": "https://picsum.photos/id/250/400"
+    },
+    {
+      "price": 1000,
+      "id": 6,
+      "title": "hot air balloon",
+      "thumbnailUrl": "https://picsum.photos/id/401/400"
+    }
+  ]
