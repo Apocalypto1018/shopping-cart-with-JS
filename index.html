@@ -61,32 +61,30 @@
         </div>
       </nav>
     </header>
+    <a name="car"></a>
     <div class="container">
-      <br />
-      <br />
-      <br />
-
-      <a name="carrito"></a>
-      <hr />
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Item</th>
-            <th scope="col">Quantity</th>
-            <th scope="col">Action</th>
-            <th scope="col">Total</th>
-          </tr>
-        </thead>
-        <tbody id="items"></tbody>
-        <tfoot>
-          <tr id="footer">
-            <th scope="row" colspan="5">Buy Whatever - start shopping!</th>
-          </tr>
-        </tfoot>
-      </table>
-      <hr />
-      <div class="row cardsContainer" id="cards"></div>
+      <div class="cont">
+        <hr />
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Item</th>
+              <th scope="col">Quantity</th>
+              <th scope="col"><span class="action">Action</span></th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody id="items"></tbody>
+          <tfoot>
+            <tr id="footer">
+              <th scope="row" colspan="5">Buy Whatever - start shopping!</th>
+            </tr>
+          </tfoot>
+        </table>
+        <hr />
+        <div class="row cardsContainer" id="cards"></div>
+      </div>
     </div>
     <footer
       class="text-center text-white footerPie"
@@ -108,7 +106,8 @@
       <th scope="row" colspan="2">Total products</th>
       <td>10</td>
       <td>
-        <button class="btn btn-danger btn-sm" id="vaciar-carrito">empty</button>
+        <button class="btn btn-primary btn-sm">Buy all</button>
+        <button class="btn btn-danger btn-sm" id="empty-cart">empty</button>
       </td>
       <td class="font-weight-bold">$ <span>5000</span></td>
     </template>
@@ -119,7 +118,7 @@
         <td></td>
         <td></td>
         <td>
-          <button class="btn btn-primary btn-sm">+</button>
+          <button class="btn btn-primary btn-sm ml-3 mr-4">+</button>
           <button class="btn btn-danger btn-sm">-</button>
         </td>
         <td>$ <span>500</span></td>
@@ -133,7 +132,12 @@
           <div class="card-body inside">
             <h5>Titulo</h5>
             <p>precio</p>
-            <button class="btn btn-primary">Buy</button>
+            <button
+              class="btn btn-primary"
+              onclick="window.location.href='#car'"
+            >
+              Buy
+            </button>
           </div>
         </div>
       </div>

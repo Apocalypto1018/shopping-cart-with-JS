@@ -112,7 +112,7 @@ const paintFooter = () => {
 
   footer.appendChild(fragment);
 
-  const button = document.querySelector("#vaciar-carrito");
+  const button = document.querySelector("#empty-cart");
   button.addEventListener("click", () => {
     cart = {};
     paintCart();

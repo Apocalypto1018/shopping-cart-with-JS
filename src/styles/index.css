@@ -18,6 +18,15 @@ body {
   padding: 50px 20px;
   background: #dae0f7;
   border-radius: 20px;
+  min-height: calc(100vh - 239px + 70px - 226px);
+}
+
+.action {
+  margin-left: 25px;
+}
+
+.cont {
+  padding-top: 68px;
 }
 
 .table {
@@ -31,4 +40,11 @@ body {
 
 li a:hover {
   font-size: 16.5px;
+}
+
+.footerPie {
+  width: 100%;
+  margin-top: 20px;
+  bottom: 0;
+  left: 0;
 }
